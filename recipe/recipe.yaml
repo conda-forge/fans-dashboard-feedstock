@@ -27,6 +27,7 @@ requirements:
     - lxml
     - scipy
     - meshio
+    - nbformat
 
 tests:
   - python:
