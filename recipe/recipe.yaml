@@ -1,5 +1,5 @@
 context:
-  version: "0.4.2"
+  version: "0.5.0"
 
 package:
   name: fans-dashboard
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/DataAnalyticsEngineering/FANS/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 9F076F4F7A4DF7808A2532BAE1ED8CE3CEBBD18D8313095A1050A595C74F2B5A
+  sha256: 0016c60b770e384cd52ae423e906ceddac0654049994a84678571ab9a42fdb63
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ requirements:
 tests:
   - python:
       imports:
-      - fans_dashboard
+        - fans_dashboard
       pip_check: true
       python_version: ${{ python_min }}.*
 
