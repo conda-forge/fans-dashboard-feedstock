@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.5.2"
 
 package:
   name: fans-dashboard
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/DataAnalyticsEngineering/FANS/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 0016c60b770e384cd52ae423e906ceddac0654049994a84678571ab9a42fdb63
+  sha256: c0cd813d93d47a42fb64c58f1d9749edabe877ce1601ca1c1b82bd4e2b0a744f
 
 build:
   noarch: python
